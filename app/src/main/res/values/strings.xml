@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IksOks</string>
+    <string name="igra_x">IGRAČ X :</string>
+    <string name="igra_o">IGRAČ O :</string>
+</resources>

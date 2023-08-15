@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+
+    <View
+        android:id="@+id/viewLine1"
+        android:layout_width="8dp"
+        android:layout_height="360dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/viewLine2"
+        android:layout_width="8dp"
+        android:layout_marginLeft="150dp"
+        android:layout_height="360dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/viewLine1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/viewLine3"
+        android:layout_width="350dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <View
+        android:id="@+id/viewLine4"
+        android:layout_width="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="270dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageViewA"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/viewLine3"
+        app:layout_constraintEnd_toEndOf="@+id/viewLine1" />
+
+
+    <ImageView
+        android:id="@+id/imageViewB"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/viewLine3"
+        app:layout_constraintEnd_toStartOf="@+id/viewLine2" />
+
+
+    <ImageView
+        android:id="@+id/imageViewC"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+         android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/viewLine3"
+        app:layout_constraintStart_toStartOf="@+id/viewLine2" />
+
+
+    <ImageView
+        android:id="@+id/imageViewD"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/viewLine4"
+        app:layout_constraintEnd_toStartOf="@+id/viewLine1" />
+
+    <ImageView
+        android:id="@+id/imageViewE"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/viewLine4"
+        app:layout_constraintEnd_toStartOf="@+id/viewLine2" />
+
+
+    <ImageView
+        android:id="@+id/imageViewF"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/viewLine4"
+        app:layout_constraintStart_toStartOf="@+id/viewLine2" />
+
+
+    <ImageView
+        android:id="@+id/imageViewG"
+        android:layout_width="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="18dp"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toStartOf="@+id/viewLine1"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine4" />
+
+
+    <ImageView
+        android:id="@+id/imageViewH"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/viewLine2"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine4" />
+
+
+    <ImageView
+        android:id="@+id/imageViewI"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintStart_toStartOf="@+id/viewLine2"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine4" />
+
+
+    <View
+        android:id="@+id/viewVictory1"
+        android:layout_width="360dp"
+        android:layout_height="8dp"
+        android:background="#C81919"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewLine3"
+        app:layout_constraintEnd_toEndOf="@+id/viewLine3"
+        app:layout_constraintStart_toStartOf="@+id/viewLine3" />
+
+
+    <View
+        android:id="@+id/viewVictory2"
+        android:layout_width="360dp"
+        android:layout_height="8dp"
+        android:layout_marginBottom="50dp"
+        android:background="#C81919"
+        app:layout_constraintBottom_toBottomOf="@+id/viewLine4"
+        app:layout_constraintEnd_toEndOf="@+id/viewLine4"
+        app:layout_constraintStart_toStartOf="@+id/viewLine4" />
+
+
+    <View
+        android:id="@+id/viewVictory3"
+        android:layout_width="360dp"
+        android:layout_height="8dp"
+        android:background="#C81919"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="@+id/viewLine4"
+        app:layout_constraintStart_toStartOf="@+id/viewLine4"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine4" />
+
+
+    <View
+        android:id="@+id/viewVictory4"
+        android:layout_width="8dp"
+        android:layout_height="380dp"
+        android:background="#C81919"
+        android:layout_marginRight="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewLine1"
+        app:layout_constraintEnd_toEndOf="@+id/viewLine1"
+        app:layout_constraintTop_toTopOf="@+id/viewLine1" />
+
+
+    <View
+        android:id="@+id/viewVictory5"
+        android:layout_width="8dp"
+        android:layout_height="380dp"
+        android:background="#C81919"
+        android:layout_marginLeft="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewLine1"
+        app:layout_constraintStart_toEndOf="@+id/viewLine1"
+        app:layout_constraintTop_toTopOf="@+id/viewLine1" />
+
+    <View
+        android:id="@+id/viewVictory6"
+        android:layout_width="8dp"
+        android:layout_height="380dp"
+        android:background="#C81919"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewLine1"
+        app:layout_constraintStart_toEndOf="@+id/viewLine2"
+        app:layout_constraintTop_toTopOf="@+id/viewLine1" />
+
+
+    <View
+        android:id="@+id/viewVictory7"
+        android:layout_width="8dp"
+        android:layout_height="490dp"
+        android:layout_marginTop="5dp"
+        android:background="#C81919"
+        android:rotation="45"
+        app:layout_constraintEnd_toStartOf="@+id/viewLine2"
+        app:layout_constraintStart_toEndOf="@+id/viewLine1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/viewVictory8"
+        android:layout_width="8dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="5dp"
+        android:background="#C81919"
+        android:rotation="140"
+        app:layout_constraintEnd_toStartOf="@+id/viewLine2"
+        app:layout_constraintStart_toEndOf="@+id/viewLine1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/igra_x"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine1" />
+
+    <TextView
+        android:id="@+id/textViewPlayer1Wins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="10dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewPlayer1"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine1" />
+
+    <TextView
+        android:id="@+id/textViewPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/igra_o"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine1" />
+
+    <TextView
+        android:id="@+id/textViewPlayer2Wins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="10dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewPlayer1"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine1" />
+
+
+    <TextView
+        android:id="@+id/textViewWins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+       android:layout_marginLeft="10dp"
+        android:text="REZULTAT"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine1" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
